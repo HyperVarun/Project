@@ -31,7 +31,7 @@ A simple web application to manage a watchlist of movies. Built using Java, Spri
 1. **Clone the repository:**
 
 sh
-git clone https://github.com/HyperVarun/Project
+git clone https://github.com/HyperVarun/Project.git
 cd master/watchlistApplication
 
 2. **Set up the PostgreSQL database:**
