@@ -31,20 +31,20 @@ A simple web application to manage a watchlist of movies. Built using Java, Spri
 1. **Clone the repository:**
 
 sh
-git clone https://github.com/HyperVarun/movie-watchlist.git
-cd movie-watchlist
+git clone https://github.com/HyperVarun/Project
+cd master/watchlistApplication
 
 2. **Set up the PostgreSQL database:**
 
-Create a database named `movie_watchlist` and a user with access to it.
+Create a database named `watchlist_Application` and a user with access to it.
 sql
-CREATE DATABASE movie_watchlist;
+CREATE DATABASE watchlist_Application;
 CREATE USER watchlist_user WITH ENCRYPTED PASSWORD 'yourpassword'; (Optional)
 GRANT ALL PRIVILEGES ON DATABASE movie_watchlist TO watchlist_user;
 
 4. **Configure the application properties:**
 
-Update the `src/main/resources/application.properties` file with your PostgreSQL configuration: appkication.properties
+Update the `src/main/resources/application.properties` file with your PostgreSQL configuration: appkication properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/DatatBase_Name
 spring.datasource.username={Check your user_name}
 spring.datasource.password=yourpassword
@@ -57,7 +57,7 @@ spring.jpa.hibernate.ddl-auto=update
     
 5. **Access the application:**
 
-Open your browser and navigate to `http://localhost:8080/watchlist`.
+Open your browser and navigate to `http://localhost:8080`.
 
 ## Project Structure
 
